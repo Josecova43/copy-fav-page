@@ -1,0 +1,54 @@
+img {
+    
+    margin-top: 3cm;
+    margin-left: 5cm;
+    width: 400px;
+    height: 300px;
+    
+    
+}
+.fit-picture{
+    margin: 0;
+}
+h2{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    width: 450px;
+    margin-left: 5cm;
+    margin-bottom: 1000px;
+    position: static;
+    left: 5cm;
+}
+.user-data{
+    display: inline-block;
+    vertical-align: top;
+}
+.info-user-data{
+    width: 456px;
+    height: 396px;
+}
+.info-user-data, form{
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+}
+form{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px;
+    margin: 40 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    font-family: inherit;
+    display: flex;
+    justify-content: flex-end;align-items: flex-end;
+}
+
+.email{
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    border: 1px solid #dddfe2;
+    background: #fff;
+}

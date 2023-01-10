@@ -1,54 +1,113 @@
 img {
     
-    margin-top: 3cm;
-    margin-left: 5cm;
+    padding-left: 250px;
+   padding-top: 259px;
+   padding-bottom: 0;
     width: 400px;
-    height: 300px;
+    height: 100px;
     
     
 }
 .fit-picture{
     margin: 0;
+    width: 500px;
 }
 h2{ 
     font-family:Arial, Helvetica, sans-serif;
     font-weight: normal;
     width: 450px;
-    margin-left: 5cm;
-    margin-bottom: 1000px;
+    padding-left: 335px;
+    padding-top: -10px;
     position: static;
-    left: 5cm;
+    
 }
+
 .user-data{
+  
+    right: 600px;
+    top: 280px;
+    font-family: inherit;
     display: inline-block;
-    vertical-align: top;
-}
-.info-user-data{
-    width: 456px;
-    height: 396px;
-}
-.info-user-data, form{
-    padding-bottom: 24px;
-    padding-top: 10px;
-    text-align: center;
-}
-form{
-    background-color: #fff;
+    position: absolute;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%) ;
     border: none;
     border-radius: 8px;
-    box-shadow: 4px;
-    margin: 40 0 0;
-    padding: 20px 0 28px;
-    width: 396px;
-    font-family: inherit;
-    display: flex;
-    justify-content: flex-end;align-items: flex-end;
+   text-align: center;
+   width: 396px;
+   height: 296px;
+  
+    
+}
+button{
+  font-weight: bold;
+  text-align: center;
+  box-sizing: content-box;  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1877f2;
+  border-radius: 6px;
+  font-size: 20px;
+  width: 332px;
+  border: none;
+  padding: 16px 16px;
+  margin-top: 5px;
+  color: #fff;
+}
+.create-new-log{font-weight: bold;
+    text-align: center;
+    box-sizing: content-box;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 332px;
+    border: none;
+    padding: 16px 16px;
+    margin-top: 5px;
+    color: #fff
+
+}
+.input-email, .input-pass{
+    border-radius: 6px;
+    font-size: 17px;
+    width: 284px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border: 1px solid #dddfe2;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle
+    ;
+
+}
+.input-pass{
+    margin-top: 16px;
+}
+.loss-pass{
+    color: #1877f2;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.loss-pass1{
+    margin-top: 15px;
 }
 
 .email{
-    height: 22px;
-    line-height: 22px;
-    vertical-align: middle;
-    border: 1px solid #dddfe2;
-    background: #fff;
+    height: 26px;
 }
+
+footer{
+    color: rgb(158, 154, 154);
+    text-align: left;
+    margin-top: 300px;
+    padding-left: 320px;
+    font-family: inherit;
+    
+}
+
+.createnewpag{
+    color: black;
+    font: 400;
+}    
+
+
